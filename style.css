@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    margin:auto;
+    height: 60vh;
+    padding: 15px;
+    margin-top: 150px;
+}
+table,tr,td{
+    border: 3px solid blue;
+    border-radius: 15px;
+    text-align: center;
+}
+tr{
+    height: 50px;
+}
+td{
+    width: 50px;
+    color: rgb(237, 237, 237);
+    background-color: rgb(48, 48, 48);
+}
+td:hover{
+    color: black;
+    background-color:ghostwhite;
+}
